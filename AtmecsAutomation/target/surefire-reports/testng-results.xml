@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="33" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53933" started-at="2019-09-27T05:17:35Z" finished-at="2019-09-27T05:18:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53933" started-at="2019-09-27T05:17:35Z" finished-at="2019-09-27T05:18:29Z">
+      <class name="com.atmecsautomation.testscripts.HomePage">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="startReport" is-config="true" duration-ms="368" started-at="2019-09-27T05:17:35Z" finished-at="2019-09-27T05:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="intitailizeBrowser" is-config="true" duration-ms="9371" started-at="2019-09-27T05:17:35Z" finished-at="2019-09-27T05:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="isRedirectionPage(java.lang.String)[pri:0, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="isRedirectionPage" duration-ms="100" started-at="2019-09-27T05:17:47Z" data-provider="HomePageTitle" finished-at="2019-09-27T05:17:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home | Atmecs, Inc. | Digital Solutions & Product Engineering Services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRedirectionPage -->
+        <test-method status="PASS" signature="homePageFooter([Ljava.lang.String;)[pri:1, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="homePageFooter" duration-ms="2349" started-at="2019-09-27T05:17:47Z" data-provider="footerdata" finished-at="2019-09-27T05:17:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5e8f9e2d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageFooter -->
+        <test-method status="PASS" signature="homePageFooter([Ljava.lang.String;)[pri:1, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="homePageFooter" duration-ms="866" started-at="2019-09-27T05:17:50Z" data-provider="footerdata" finished-at="2019-09-27T05:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@51df223b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageFooter -->
+        <test-method status="PASS" signature="homePageFooter([Ljava.lang.String;)[pri:1, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="homePageFooter" duration-ms="544" started-at="2019-09-27T05:17:51Z" data-provider="footerdata" finished-at="2019-09-27T05:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@fd46303]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageFooter -->
+        <test-method status="PASS" signature="homePageFooter([Ljava.lang.String;)[pri:1, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="homePageFooter" duration-ms="553" started-at="2019-09-27T05:17:51Z" data-provider="footerdata" finished-at="2019-09-27T05:17:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@60d8c0dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageFooter -->
+        <test-method status="PASS" signature="aboutUsFooter([Ljava.lang.String;)[pri:2, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="aboutUsFooter" duration-ms="4699" started-at="2019-09-27T05:17:52Z" data-provider="footerdata" finished-at="2019-09-27T05:17:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6c67e137]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUsFooter -->
+        <test-method status="PASS" signature="aboutUsFooter([Ljava.lang.String;)[pri:2, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="aboutUsFooter" duration-ms="645" started-at="2019-09-27T05:17:56Z" data-provider="footerdata" finished-at="2019-09-27T05:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2c9399a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUsFooter -->
+        <test-method status="PASS" signature="aboutUsFooter([Ljava.lang.String;)[pri:2, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="aboutUsFooter" duration-ms="344" started-at="2019-09-27T05:17:57Z" data-provider="footerdata" finished-at="2019-09-27T05:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@191ae03f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUsFooter -->
+        <test-method status="PASS" signature="aboutUsFooter([Ljava.lang.String;)[pri:2, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="aboutUsFooter" duration-ms="453" started-at="2019-09-27T05:17:57Z" data-provider="footerdata" finished-at="2019-09-27T05:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@9635fa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUsFooter -->
+        <test-method status="PASS" signature="servicesFooter([Ljava.lang.String;)[pri:3, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="servicesFooter" duration-ms="5387" started-at="2019-09-27T05:17:58Z" data-provider="footerdata" finished-at="2019-09-27T05:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6d1d4d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesFooter -->
+        <test-method status="PASS" signature="servicesFooter([Ljava.lang.String;)[pri:3, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="servicesFooter" duration-ms="592" started-at="2019-09-27T05:18:03Z" data-provider="footerdata" finished-at="2019-09-27T05:18:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@89ff02e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesFooter -->
+        <test-method status="PASS" signature="servicesFooter([Ljava.lang.String;)[pri:3, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="servicesFooter" duration-ms="465" started-at="2019-09-27T05:18:04Z" data-provider="footerdata" finished-at="2019-09-27T05:18:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6865c751]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesFooter -->
+        <test-method status="PASS" signature="servicesFooter([Ljava.lang.String;)[pri:3, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="servicesFooter" duration-ms="409" started-at="2019-09-27T05:18:04Z" data-provider="footerdata" finished-at="2019-09-27T05:18:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@62679465]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesFooter -->
+        <test-method status="PASS" signature="partnersFooter([Ljava.lang.String;)[pri:4, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="partnersFooter" duration-ms="4975" started-at="2019-09-27T05:18:05Z" data-provider="footerdata" finished-at="2019-09-27T05:18:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@69c79f09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partnersFooter -->
+        <test-method status="PASS" signature="partnersFooter([Ljava.lang.String;)[pri:4, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="partnersFooter" duration-ms="532" started-at="2019-09-27T05:18:10Z" data-provider="footerdata" finished-at="2019-09-27T05:18:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1ca25c47]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partnersFooter -->
+        <test-method status="PASS" signature="partnersFooter([Ljava.lang.String;)[pri:4, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="partnersFooter" duration-ms="544" started-at="2019-09-27T05:18:10Z" data-provider="footerdata" finished-at="2019-09-27T05:18:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5fcacc0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partnersFooter -->
+        <test-method status="PASS" signature="partnersFooter([Ljava.lang.String;)[pri:4, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="partnersFooter" duration-ms="622" started-at="2019-09-27T05:18:11Z" data-provider="footerdata" finished-at="2019-09-27T05:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@533b266e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partnersFooter -->
+        <test-method status="PASS" signature="mediaFooter([Ljava.lang.String;)[pri:5, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="mediaFooter" duration-ms="2149" started-at="2019-09-27T05:18:12Z" data-provider="footerdata" finished-at="2019-09-27T05:18:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3e2822]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mediaFooter -->
+        <test-method status="PASS" signature="mediaFooter([Ljava.lang.String;)[pri:5, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="mediaFooter" duration-ms="564" started-at="2019-09-27T05:18:14Z" data-provider="footerdata" finished-at="2019-09-27T05:18:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@79e18e38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mediaFooter -->
+        <test-method status="PASS" signature="mediaFooter([Ljava.lang.String;)[pri:5, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="mediaFooter" duration-ms="513" started-at="2019-09-27T05:18:14Z" data-provider="footerdata" finished-at="2019-09-27T05:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@29a60c27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mediaFooter -->
+        <test-method status="PASS" signature="mediaFooter([Ljava.lang.String;)[pri:5, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="mediaFooter" duration-ms="433" started-at="2019-09-27T05:18:15Z" data-provider="footerdata" finished-at="2019-09-27T05:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1849db1a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mediaFooter -->
+        <test-method status="PASS" signature="insightsFooter([Ljava.lang.String;)[pri:6, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="insightsFooter" duration-ms="2318" started-at="2019-09-27T05:18:15Z" data-provider="footerdata" finished-at="2019-09-27T05:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4204541c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insightsFooter -->
+        <test-method status="PASS" signature="insightsFooter([Ljava.lang.String;)[pri:6, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="insightsFooter" duration-ms="428" started-at="2019-09-27T05:18:18Z" data-provider="footerdata" finished-at="2019-09-27T05:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6a62689d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insightsFooter -->
+        <test-method status="PASS" signature="insightsFooter([Ljava.lang.String;)[pri:6, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="insightsFooter" duration-ms="408" started-at="2019-09-27T05:18:18Z" data-provider="footerdata" finished-at="2019-09-27T05:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4602c2a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insightsFooter -->
+        <test-method status="PASS" signature="insightsFooter([Ljava.lang.String;)[pri:6, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="insightsFooter" duration-ms="549" started-at="2019-09-27T05:18:18Z" data-provider="footerdata" finished-at="2019-09-27T05:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@60fa3495]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insightsFooter -->
+        <test-method status="PASS" signature="careersFooter([Ljava.lang.String;)[pri:7, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="careersFooter" duration-ms="5025" started-at="2019-09-27T05:18:19Z" data-provider="footerdata" finished-at="2019-09-27T05:18:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@53ab0286]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careersFooter -->
+        <test-method status="PASS" signature="careersFooter([Ljava.lang.String;)[pri:7, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="careersFooter" duration-ms="605" started-at="2019-09-27T05:18:24Z" data-provider="footerdata" finished-at="2019-09-27T05:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@63c5efee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careersFooter -->
+        <test-method status="PASS" signature="careersFooter([Ljava.lang.String;)[pri:7, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="careersFooter" duration-ms="556" started-at="2019-09-27T05:18:25Z" data-provider="footerdata" finished-at="2019-09-27T05:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2d10e0b1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careersFooter -->
+        <test-method status="PASS" signature="careersFooter([Ljava.lang.String;)[pri:7, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="careersFooter" duration-ms="521" started-at="2019-09-27T05:18:25Z" data-provider="footerdata" finished-at="2019-09-27T05:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1c98290c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careersFooter -->
+        <test-method status="PASS" signature="contactUsFooter([Ljava.lang.String;)[pri:8, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="contactUsFooter" duration-ms="1717" started-at="2019-09-27T05:18:26Z" data-provider="footerdata" finished-at="2019-09-27T05:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@172ca72b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsFooter -->
+        <test-method status="PASS" signature="contactUsFooter([Ljava.lang.String;)[pri:8, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="contactUsFooter" duration-ms="461" started-at="2019-09-27T05:18:28Z" data-provider="footerdata" finished-at="2019-09-27T05:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5bda80bf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsFooter -->
+        <test-method status="PASS" signature="contactUsFooter([Ljava.lang.String;)[pri:8, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="contactUsFooter" duration-ms="393" started-at="2019-09-27T05:18:28Z" data-provider="footerdata" finished-at="2019-09-27T05:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@71e5f61d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsFooter -->
+        <test-method status="PASS" signature="contactUsFooter([Ljava.lang.String;)[pri:8, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="contactUsFooter" duration-ms="412" started-at="2019-09-27T05:18:28Z" data-provider="footerdata" finished-at="2019-09-27T05:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2ce86164]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsFooter -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecsautomation.testscripts.HomePage@6276ae34]" name="endReport" is-config="true" duration-ms="1278" started-at="2019-09-27T05:18:29Z" finished-at="2019-09-27T05:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecsautomation.testscripts.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
