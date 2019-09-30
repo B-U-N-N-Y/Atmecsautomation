@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.atmecsautomation.testscripts.Scenario1">
+        <methods>
+          <include name="menuOptionvalidation" invocation-numbers="0 1"/>
+          <include name="intitailizeBrowser"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.atmecsautomation.testscripts.Scenario1 -->
+      <class name="com.atmecsautomation.testscripts.Scenario2">
+        <methods>
+          <include name="intitailizeBrowser"/>
+          <include name="blogContentValidation"/>
+          <include name="blogDateValidation"/>
+          <include name="errorMsgValidation"/>
+          <include name="blogPage"/>
+          <include name="startReport"/>
+          <include name="blogBreadcrum"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.atmecsautomation.testscripts.Scenario2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

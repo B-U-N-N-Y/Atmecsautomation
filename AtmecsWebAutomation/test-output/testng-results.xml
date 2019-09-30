@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17933" started-at="2019-09-30T12:11:58Z" finished-at="2019-09-30T12:12:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17933" started-at="2019-09-30T12:11:58Z" finished-at="2019-09-30T12:12:16Z">
+      <class name="com.atmecsautomation.testscripts.Scenario2">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.atmecsautomation.testscripts.Scenario2@1794d431]" name="startReport" is-config="true" duration-ms="234" started-at="2019-09-30T12:11:58Z" finished-at="2019-09-30T12:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.atmecsautomation.testscripts.Scenario2@1794d431]" name="intitailizeBrowser" is-config="true" duration-ms="6071" started-at="2019-09-30T12:11:58Z" finished-at="2019-09-30T12:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="blogPage()[pri:10, instance:com.atmecsautomation.testscripts.Scenario2@1794d431]" name="blogPage" duration-ms="4658" started-at="2019-09-30T12:12:05Z" finished-at="2019-09-30T12:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogPage -->
+        <test-method status="PASS" signature="blogDateValidation()[pri:11, instance:com.atmecsautomation.testscripts.Scenario2@1794d431]" name="blogDateValidation" duration-ms="2587" started-at="2019-09-30T12:12:09Z" finished-at="2019-09-30T12:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogDateValidation -->
+        <test-method status="PASS" signature="blogContentValidation()[pri:12, instance:com.atmecsautomation.testscripts.Scenario2@1794d431]" name="blogContentValidation" duration-ms="3087" started-at="2019-09-30T12:12:12Z" finished-at="2019-09-30T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogContentValidation -->
+        <test-method status="PASS" signature="blogBreadcrum()[pri:13, instance:com.atmecsautomation.testscripts.Scenario2@1794d431]" name="blogBreadcrum" duration-ms="289" started-at="2019-09-30T12:12:15Z" finished-at="2019-09-30T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blogBreadcrum -->
+        <test-method status="PASS" signature="errorMsgValidation()[pri:14, instance:com.atmecsautomation.testscripts.Scenario2@1794d431]" name="errorMsgValidation" duration-ms="1194" started-at="2019-09-30T12:12:15Z" finished-at="2019-09-30T12:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMsgValidation -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecsautomation.testscripts.Scenario2@1794d431]" name="endReport" is-config="true" duration-ms="1081" started-at="2019-09-30T12:12:16Z" finished-at="2019-09-30T12:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecsautomation.testscripts.Scenario2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

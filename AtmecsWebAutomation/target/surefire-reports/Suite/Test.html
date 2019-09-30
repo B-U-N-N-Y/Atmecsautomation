@@ -1,0 +1,279 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 30 17:02:05 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>86 seconds (86648 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.aboutUsFooter()'><b>aboutUsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@77cf3f8b</td>
+<td></td>
+<td>2</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.aboutUsFooter()'><b>aboutUsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@1df98368</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.aboutUsFooter()'><b>aboutUsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@21ca139c</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.aboutUsFooter()'><b>aboutUsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@226f885f</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario2.blogBreadcrum()'><b>blogBreadcrum</b><br>Test class: com.atmecsautomation.testscripts.Scenario2</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario2@737996a0</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario2.blogContentValidation()'><b>blogContentValidation</b><br>Test class: com.atmecsautomation.testscripts.Scenario2</td>
+<td></td>
+<td>8</td>
+<td>com.atmecsautomation.testscripts.Scenario2@737996a0</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario2.blogDateValidation()'><b>blogDateValidation</b><br>Test class: com.atmecsautomation.testscripts.Scenario2</td>
+<td></td>
+<td>1</td>
+<td>com.atmecsautomation.testscripts.Scenario2@737996a0</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario2.blogPage()'><b>blogPage</b><br>Test class: com.atmecsautomation.testscripts.Scenario2</td>
+<td></td>
+<td>3</td>
+<td>com.atmecsautomation.testscripts.Scenario2@737996a0</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.careersFooter()'><b>careersFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@2cd2c8fe</td>
+<td></td>
+<td>2</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.careersFooter()'><b>careersFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@7d61eccf</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.careersFooter()'><b>careersFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@cc6460c</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.careersFooter()'><b>careersFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@52350abb</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.contactUsFooter()'><b>contactUsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@681aad3b</td>
+<td></td>
+<td>15</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.contactUsFooter()'><b>contactUsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@1a6f2363</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.contactUsFooter()'><b>contactUsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@2427e004</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.contactUsFooter()'><b>contactUsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@5ebd56e9</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario2.errorMsgValidation()'><b>errorMsgValidation</b><br>Test class: com.atmecsautomation.testscripts.Scenario2</td>
+<td></td>
+<td>1</td>
+<td>com.atmecsautomation.testscripts.Scenario2@737996a0</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.homePageFooter()'><b>homePageFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@63f34b70</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.homePageFooter()'><b>homePageFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@641856</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.homePageFooter()'><b>homePageFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@1b58ff9e</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.homePageFooter()'><b>homePageFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@2f66e802</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.insightsFooter()'><b>insightsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@56b78e55</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.insightsFooter()'><b>insightsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@76318a7d</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.insightsFooter()'><b>insightsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@2a492f2a</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.insightsFooter()'><b>insightsFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@3277e499</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.isRedirectionPage()'><b>isRedirectionPage</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: Home | Atmecs, Inc. | Digital Solutions & Product Engineering Services</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.mediaFooter()'><b>mediaFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@585811a4</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.mediaFooter()'><b>mediaFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@22c01ab0</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.mediaFooter()'><b>mediaFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@411341bd</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.mediaFooter()'><b>mediaFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@4c4d362a</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.menuOptionvalidation()'><b>menuOptionvalidation</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@5400db36</td>
+<td></td>
+<td>1</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.menuOptionvalidation()'><b>menuOptionvalidation</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@76b74e9c</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.partnersFooter()'><b>partnersFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@2d72f75e</td>
+<td></td>
+<td>3</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.partnersFooter()'><b>partnersFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@8ab78bc</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.partnersFooter()'><b>partnersFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@5aa0dbf4</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.partnersFooter()'><b>partnersFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@16afbd92</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.servicesFooter()'><b>servicesFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@2c5d601e</td>
+<td></td>
+<td>6</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.servicesFooter()'><b>servicesFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@7fe083b1</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.servicesFooter()'><b>servicesFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@23c388c2</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+<tr>
+<td title='com.atmecsautomation.testscripts.Scenario1.servicesFooter()'><b>servicesFooter</b><br>Test class: com.atmecsautomation.testscripts.Scenario1<br>Parameters: [Ljava.lang.String;@486be205</td>
+<td></td>
+<td>0</td>
+<td>com.atmecsautomation.testscripts.Scenario1@234bef66</td></tr>
+</table><p>
+</body>
+</html>
